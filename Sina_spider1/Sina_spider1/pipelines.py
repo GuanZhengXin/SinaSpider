@@ -2,7 +2,7 @@
 import pymongo
 from items import InformationItem, TweetsItem, FollowsItem, FansItem
 
-
+###
 class MongoDBPipleline(object):
     def __init__(self):
         clinet = pymongo.MongoClient("localhost", 27017)
